@@ -5,12 +5,13 @@
 - [About the Project](#about-the-project)
 - [Installation](#installation)
 - [Usage](#usage)
+- [License](#license)
 - [Contact](#contact)
 
 ---
 
 ## About the Project
-![Flowchart](./Flowchart.jpg)
+![Flowchart](./Assets/Flowchart.jpg)
 
 Problem Solved
 
@@ -21,8 +22,6 @@ Problem Solved
 - [Northwind_Database](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs)
 
 ---
-
-
 
 ## Installation
 
@@ -36,10 +35,7 @@ To install and run this project locally, follow these steps:
 2. Install dependencies:
     ```bash
     pip install -r requirements.txt
-
     ```
-
-
 
 ---
 
