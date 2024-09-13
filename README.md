@@ -1,6 +1,6 @@
 # Project Name
 
-![Automated Nudge Pushing System]
+![Nudge Pushing System]
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@
 ---
 
 ## About the Project
-
+(./Flowchart.jpg)
 Briefly describe your project here. What problem does it solve? What is it about?
 
 ### Built With
