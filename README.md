@@ -1,6 +1,6 @@
 # Project Name
 
-![Nudge Pushing System]
+### Automated Personalized Nudge Pushing System
 
 ## Table of Contents
 
@@ -17,13 +17,13 @@
 ## About the Project
 ![Flowchart](./Flowchart.jpg)
 
-Briefly describe your project here. What problem does it solve? What is it about?
+Problem Solved
 
 ### Built With
 
-- [Technology 1](https://example.com)
-- [Technology 2](https://example.com)
-- [Technology 3](https://example.com)
+- [Autogen MultiAgent Framework](https://microsoft.github.io/autogen/docs/Use-Cases/agent_chat/)
+- [Langchain](https://www.langchain.com/)
+- [Northwind_Database](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs)
 
 ---
 
