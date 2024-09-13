@@ -1,6 +1,6 @@
 # Project Name
 
-![Project Image](./path-to-image/image-name.png)
+![Automated Nudge Pushing System](./path-to-image/image-name.png)
 
 ## Table of Contents
 
