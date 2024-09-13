@@ -1,15 +1,10 @@
-# Project Name
-
-### Automated Personalized Nudge Pushing System
+# Automated Personalized Nudge Pushing System
 
 ## Table of Contents
 
 - [About the Project](#about-the-project)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -27,13 +22,7 @@ Problem Solved
 
 ---
 
-## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
-
----
 
 ## Installation
 
@@ -41,18 +30,16 @@ To install and run this project locally, follow these steps:
 
 1. Clone the repo:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/agrawalsnehal327/Decision_point_Analytics.git
     ```
 
 2. Install dependencies:
     ```bash
-    npm install
+    pip install -r requirements.txt
+
     ```
 
-3. Start the application:
-    ```bash
-    npm start
-    ```
+
 
 ---
 
