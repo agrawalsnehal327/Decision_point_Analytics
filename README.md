@@ -16,6 +16,8 @@
 
 ## About the Project
 (./Flowchart.jpg)
+![Flowchart](./Flowchart.jpg)
+
 Briefly describe your project here. What problem does it solve? What is it about?
 
 ### Built With
