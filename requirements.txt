@@ -1,1 +1,5 @@
+autogen
+langchain
+langchain[react]
+sqlite
 
