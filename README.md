@@ -73,8 +73,8 @@ To install and run this project locally, follow these steps:
 ---
 
 ## References
-[https://arxiv.org/pdf/2305.14930.pdf](https://arxiv.org/pdf/2305.14930.pdf)
-[https://arxiv.org/pdf/2310.18168.pdf](https://arxiv.org/pdf/2310.18168.pdf)
+-[https://arxiv.org/pdf/2305.14930.pdf](https://arxiv.org/pdf/2305.14930.pdf)
+-[https://arxiv.org/pdf/2310.18168.pdf](https://arxiv.org/pdf/2310.18168.pdf)
 
 ## Usage
 
