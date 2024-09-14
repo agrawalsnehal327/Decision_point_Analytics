@@ -4,11 +4,11 @@ from autogen import AssistantAgent
 from autogen.agentchat.contrib.retrieve_user_proxy_agent import RetrieveUserProxyAgent
 from autogen.agentchat.contrib.retrieve_user_proxy_agent import UserProxyAgent
 import chromadb
-
+api_key = os.getenv('OPENAI_API_KEY')
 llm_config = {
     "timeout": 600,
     "cache_seed": 44,  # change the seed for different trials
-    "config_list": [{"model": "gpt-3.5-turbo", "api_key": os.environ["OPENAI_API_KEY"]}],
+    "config_list": [{"model": "gpt-3.5-turbo", "api_key": api_key}],
     "temperature": 0
 }
 

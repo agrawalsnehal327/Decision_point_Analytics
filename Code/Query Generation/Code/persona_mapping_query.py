@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from langgraph.prebuilt import create_react_agent
-file_path = 'pup.csv'  
+file_path = 'persona_map.csv'  
 df = pd.read_csv(file_path)
 
 
@@ -44,6 +44,15 @@ from autogen import AssistantAgent
 from autogen.agentchat.contrib.retrieve_user_proxy_agent import RetrieveUserProxyAgent
 import os;
 
+api_key = os.getenv("OPENAI_API_KEY")
+
+# Define llm_config with environment variable
+llm_config = {
+    "timeout": 600,
+    "cache_seed": 44,  # change the seed for different trials
+    "config_list": [{"model": "gpt-4", "api_key": api_key}],
+    "temperature": 0
+}
 from autogen import AssistantAgent, UserProxyAgent
 
 proxy = UserProxyAgent(
@@ -110,10 +119,10 @@ def countdown(seconds):
 
 from langchain_community.utilities import SQLDatabase
 
-db = SQLDatabase.from_uri("sqlite:///c.db")
+db = SQLDatabase.from_uri("sqlite:///database.db")
 db.text_factory = lambda x: str(x, 'utf-8', 'ignore') if isinstance(x, bytes) else str(x, 'utf-8', 'ignore')
 from langchain_openai import ChatOpenAI
-llm = ChatOpenAI(model="gpt-4",temperature=.7)
+llm = ChatOpenAI(model="gpt-4", openai_api_key =api_key,temperature=.7)
 from langchain_community.agent_toolkits import SQLDatabaseToolkit
 
 toolkit = SQLDatabaseToolkit(db=db, llm=llm)
