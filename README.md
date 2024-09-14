@@ -4,7 +4,6 @@
 
 - [About the Project](#about-the-project)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 - [Contact](#contact)
 
@@ -73,12 +72,8 @@ To install and run this project locally, follow these steps:
 ---
 
 ## References
--[https://arxiv.org/pdf/2305.14930.pdf](https://arxiv.org/pdf/2305.14930.pdf)
--[https://arxiv.org/pdf/2310.18168.pdf](https://arxiv.org/pdf/2310.18168.pdf)
+ [https://arxiv.org/pdf/2305.14930.pdf](https://arxiv.org/pdf/2305.14930.pdf) | [https://arxiv.org/pdf/2310.18168.pdf](https://arxiv.org/pdf/2310.18168.pdf)
 
-## Usage
-
-Explain how to use your project. Include code snippets or instructions for running the app.
 
 # contact
 agrawalsnehal327@gmail.com
