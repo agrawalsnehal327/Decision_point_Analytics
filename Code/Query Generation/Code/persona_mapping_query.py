@@ -44,12 +44,6 @@ from autogen import AssistantAgent
 from autogen.agentchat.contrib.retrieve_user_proxy_agent import RetrieveUserProxyAgent
 import os;
 
-llm_config = {
-    "timeout": 600,
-    "cache_seed": 44,  # change the seed for different trials
-    "config_list": [{"model": "gpt-4", "api_key": "sk-proj-nNevbQswbaqu3gnYhrRTT3BlbkFJdcPUak4NBUtG8XP6iFWI"}],
-    "temperature": 0
-}
 from autogen import AssistantAgent, UserProxyAgent
 
 proxy = UserProxyAgent(
@@ -119,7 +113,7 @@ from langchain_community.utilities import SQLDatabase
 db = SQLDatabase.from_uri("sqlite:///c.db")
 db.text_factory = lambda x: str(x, 'utf-8', 'ignore') if isinstance(x, bytes) else str(x, 'utf-8', 'ignore')
 from langchain_openai import ChatOpenAI
-llm = ChatOpenAI(model="gpt-4", openai_api_key = "sk-proj-nNevbQswbaqu3gnYhrRTT3BlbkFJdcPUak4NBUtG8XP6iFWI",temperature=.7)
+llm = ChatOpenAI(model="gpt-4",temperature=.7)
 from langchain_community.agent_toolkits import SQLDatabaseToolkit
 
 toolkit = SQLDatabaseToolkit(db=db, llm=llm)
